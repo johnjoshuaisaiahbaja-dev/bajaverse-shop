@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bajaverse Shop</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+}
+header {
+  background: #0756b5;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+nav {
+  background: #063d83;
+  padding: 15px;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+}
+h2 { text-align: center; }
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 20px;
+  padding: 25px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+.price {
+  color: #0756b5;
+  font-weight: bold;
+}
+button {
+  background: #0756b5;
+  color: white;
+  border: 0;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>BAJAVERSE SHOP</h1>
+<p>Your Marketplace, Your Universe.</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#products">Products</a>
+<a href="#">About</a>
+</nav>
+
+<h2>Explore Our Products</h2>
+
+<div class="products" id="products">
+
+<div class="card">
+<img src="https://placehold.co/300x180?text=Keyboard" alt="Keyboard">
+<h3>Gaming Keyboard</h3>
+<p class="price">₱850</p>
+<button onclick="alert('Demo product only!')">View Product</button>
+</div>
+
+<div class="card">
+<img src="https://placehold.co/300x180?text=Mouse" alt="Mouse">
+<h3>Wireless Mouse</h3>
+<p class="price">₱450</p>
+<button onclick="alert('Demo product only!')">View Product</button>
+</div>
+
+<div class="card">
+<img src="https://placehold.co/300x180?text=Monitor" alt="Monitor">
+<h3>Computer Monitor</h3>
+<p class="price">₱4,500</p>
+<button onclick="alert('Demo product only!')">View Product</button>
+</div>
+
+<div class="card">
+<img src="https://placehold.co/300x180?text=Headset" alt="Headset">
+<h3>Gaming Headset</h3>
+<p class="price">₱650</p>
+<button onclick="alert('Demo product only!')">View Product</button>
+</div>
+
+</div>
+
+<footer style="text-align:center;padding:25px;">
+<p>© 2026 Bajaverse Shop | Philippines</p>
+<p>Demo Website – Sample Products and Prices</p>
+</footer>
+
+</body>
+</html>
